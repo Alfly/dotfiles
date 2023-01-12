@@ -1,3 +1,18 @@
-- clean: []
-- link: {}
-- shell: []
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''  # PROJ HERE
+    ~/.shell:
+    ~/.zsh:
+    ~/.zshrc:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+
+- shell: 
+  - git submodule sync --recursive
+
