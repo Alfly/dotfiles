@@ -95,6 +95,7 @@ function RPR_USER() {
     fi
 }
 
+# echo "ALFLY-MBP.local" > .name
 function machine_name() {
     if [[ -f $HOME/.name ]]; then
         cat $HOME/.name

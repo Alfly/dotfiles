@@ -8,10 +8,11 @@
 - link:
     ~/.dotfiles: ''  # PROJ HERE
     ~/.shell:
-    ~/.zsh:
     ~/.zshrc:
+    ~/.zsh:
     ~/.gitconfig:
     ~/.gitignore_global:
+    ~/.fzf:
 
 - shell: 
   - git submodule sync --recursive
