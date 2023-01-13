@@ -1,6 +1,17 @@
 # Initialize completion
 autoload -Uz compinit && compinit -i
 zstyle ':completion:*' menu select=4
+
+## case-insensitive (uppercase from lowercase) completion
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+## case-insensitive (all) completion
+#zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+## case-insensitive,partial-word and then substring completion
+#zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+
+# partial completion suggestions
+zstyle ':completion:*' list-suffixeszstyle ':completion:*' expand prefix suffix
+
 zmodload zsh/complist
 # Use vim style navigation keys in menu completion
 bindkey -M menuselect 'h' vi-backward-char
