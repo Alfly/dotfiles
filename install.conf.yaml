@@ -13,6 +13,8 @@
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.fzf:
+    ~/.vim:
+    ~/.vimrc:
 
 - shell: 
   - git submodule sync --recursive
