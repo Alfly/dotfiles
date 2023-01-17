@@ -13,9 +13,9 @@ augroup CursorLineOnlyInActiveWindow
     autocmd WinLeave * setlocal nocursorline
 augroup END
 
-" colorscheme
+" set the colorscheme
 " colorscheme solarized
-" colorscheme onedark
+colorscheme onedark
 
 filetype plugin indent on " enable file type detection
 set autoindent

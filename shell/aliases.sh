@@ -17,6 +17,9 @@ alias mv='mv -i'
 # git related aliases
 alias gag='git exec ag'
 
+# others
+alias h='tldr'
+
 # Update dotfiles
 dfu() {
     (
