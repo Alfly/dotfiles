@@ -14,3 +14,6 @@
 [submodule "zsh/plugins/zsh-autosuggestions"]
 	path = zsh/plugins/zsh-autosuggestions
 	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule "fzf/fzf-tab"]
+	path = fzf/fzf-tab
+	url = git@github.com:Aloxaf/fzf-tab.git

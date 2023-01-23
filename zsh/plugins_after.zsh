@@ -1,5 +1,10 @@
 # External plugins (initialized after)
 
+# fzf-tab 
+# fzf-tab needs to be loaded after compinit, 
+# but before plugins which will wrap widgets, such as zsh-autosuggestions or fast-syntax-highlighting!!
+source ~/.fzf/fzf-tab/fzf-tab.plugin.zsh
+
 # Syntax highlighting
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -45,12 +50,12 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ababab"
 # bindkey "^[[A" history-beginning-search-backward
 # bindkey "^[[B" history-beginning-search-forward
 
-# cursor to end:
-autoload -U history-search-end
-zle -N history-beginning-search-backward-end history-search-end
-zle -N history-beginning-search-forward-end history-search-end
-bindkey "^[[A" history-beginning-search-backward-end
-bindkey "^[[B" history-beginning-search-forward-end
+# # cursor to end:
+# autoload -U history-search-end
+# zle -N history-beginning-search-backward-end history-search-end
+# zle -N history-beginning-search-forward-end history-search-end
+# bindkey "^[[A" history-beginning-search-backward-end
+# bindkey "^[[B" history-beginning-search-forward-end
 
 
 # fzf
