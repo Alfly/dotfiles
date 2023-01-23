@@ -112,8 +112,12 @@
 [core]
 	excludesfile = ~/.gitignore_global
 
-[url "https://github.com/"]
-	insteadOf = git://github.com/
+# HTTPS or SSH
+# [url "https://github.com/"]
+#	insteadOf = git://github.com/
+# Enforce SSH
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/
 
 # Allow local customizations in the .gitconfig_local file
 [include]
