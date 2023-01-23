@@ -15,6 +15,7 @@
     ~/.fzf:
     ~/.vim:
     ~/.vimrc:
+    ~/.tmux.conf:
     ~/.cargo/config: cargo/config
 
 - shell: 
