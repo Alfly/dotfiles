@@ -8,6 +8,9 @@
 - link:
     ~/.dotfiles: ''  # PROJ HERE
     ~/.shell:
+    ~/.bash:
+    ~/.bash_profile:
+    ~/.bashrc:
     ~/.zshrc:
     ~/.zsh:
     ~/.gitconfig:
@@ -21,4 +24,7 @@
 
 - shell: 
   - git submodule sync --recursive
-
+  - >
+    git cleanall -f
+    shell/plugins/
+    zsh/plugins/
