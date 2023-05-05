@@ -17,3 +17,9 @@
 [submodule "fzf/fzf-tab"]
 	path = fzf/fzf-tab
 	url = git@github.com:Aloxaf/fzf-tab.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "tmux/plugins/tmux-resurrect"]
+	path = tmux/plugins/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect
