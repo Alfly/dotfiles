@@ -1,6 +1,7 @@
 # Dotfiles
 
-Manage my dotfiles using [dotbot][dotbot], with `cd ~/.dotfiles && ./install` to update.
+Manage my dotfiles using [dotbot][dotbot], with `cd ~/.dotfiles && ./install` to 
+update. The config in this repo mainly comes from [dotfiles][dotfiles-ref].
 
 Note: By default, the script assumes that the configuration is located in 
 `install.conf.yaml`, the Dotbot submodule is located in `dotbot`. 
@@ -60,3 +61,4 @@ Install [tmux-resurrectusing][tmux-resurrect] with [Tmux Plugin Manager][tpm].
 [tmuxcheatsheet]: https://tmuxcheatsheet.com/
 [tmux-resurrect]: https://github.com/tmux-plugins/tmux-resurrect
 [tpm]: https://github.com/tmux-plugins/tpm
+[dotfiles-ref]: https://github.com/anishathalye/dotfiles
