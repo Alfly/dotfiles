@@ -59,4 +59,5 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ababab"
 
 
 # fzf
-source ~/.fzf/fzf.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/.fzf/fzf_local.zsh
