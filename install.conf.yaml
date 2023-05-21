@@ -20,6 +20,7 @@
     ~/.vimrc:
     ~/.tmux:
     ~/.tmux.conf:
+    ~/.gdbinit:
     ~/.cargo/config: cargo/config
 
 - shell: 
