@@ -18,4 +18,4 @@ export RUSTUP_DIST_SERVER="https://rsproxy.cn"
 export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 
 # gcc
-export CFLAGS="-Wall -Wextra -O2 -g3 -pthread"
+export CFLAGS="-Wall -O2 -g3 -pthread"
