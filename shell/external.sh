@@ -13,7 +13,8 @@
 # # Docker
 # export DOCKER_SCAN_SUGGEST=false
 
-# Rust proxy
+# Rust cargo/proxy
+. "$HOME/.cargo/env"
 export RUSTUP_DIST_SERVER="https://rsproxy.cn"
 export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 
