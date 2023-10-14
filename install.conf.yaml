@@ -21,6 +21,7 @@
     ~/.tmux:
     ~/.tmux.conf:
     ~/.gdbinit:
+    ~/.condarc:
     ~/.cargo/config: cargo/config
 
 - shell: 
