@@ -37,16 +37,34 @@ Here's an example of a complete configuration.
 Shortcuts with prefix: `<Ctrl + a>`, more detail in [Tmux Cheat Sheet & Quick Reference][tmuxcheatsheet].
 
 ```
+tmux ls                     Show all sessions
+tmux a -t ses-name          Attach to a session with the name
+<C-d>                       kill the current session
+tmux kill-server            Kill the tmux server&clients and destroy all sessions
+tmux kill-ses -a            kill all sessions but the current
+tmux kill-ses -t ses-name   kill all sessions but ses-name
+```
+
+```
 <C-a> ?           Display a list of shortcuts
+<C-a> R           Reload the .tmux.conf file
+
+# Sessions
+<C-a> s           Show all sessions
+<C-a> $           Rename session
+<C-a> d           Detach from session
+
+# Windows
 <C-a> w           Show all windows
 <C-a> &           Close current window
 <C-a> .           Move current window
 <C-a> ,           Rename current window
+
+# Panes
 <C-a> x           Close current pane
 <C-a> |           Split pane with horizontal layout
 <C-a> -           Split pane with vertical layout
 <C-a> t           Switch current pane to time mode
-<C-a> R           Reload the .tmux.conf file
 ```
 
 ### tmux-resurrect
