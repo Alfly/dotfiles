@@ -113,7 +113,7 @@
 	excludesfile = ~/.gitignore_global
 	quotepath = false # chinese in git st/diff
 	# 处理行尾符的转换
-	autocrlf = true # win: CRLF(^M)
+	# autocrlf = true # win: CRLF(^M)
 	# autocrlf = input # unix: LF
 
 # HTTPS or SSH
